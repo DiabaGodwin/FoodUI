@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0rem;
+    border: 0rem;
+    margin: 0;
+}
+
+
+
+body {
+    width: 100%;
+    font-size: .8rem;
+    background-color: rgb(151, 150, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    height: 3rem;
+    background-color: rgb(252, 250, 250);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.options {
+    position: absolute;
+    top: 1rem;
+    left: 31rem;
+}
+
+.options ul {
+    display: flex;
+    padding-right: 1rem;
+    list-style: none;
+    /* position: absolute;
+    top: 1rem;
+    left: 8rem; */
+
+}
+
+.options ul li {
+    padding-right: 3rem;
+
+}
+
+.options ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.options ul li a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.signup_login {
+    display: inline-flex;
+}
+
+.signup {
+    position: absolute;
+    top: 0.6rem;
+    right: 2rem;
+    padding: 0.5rem;
+}
+
+.signup a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.signup:hover {
+    background-color: orangered;
+    cursor: pointer;
+
+}
+
+.signup a:hover {
+    color: white;
+}
+
+.login {
+    position: absolute;
+    top: 0.6rem;
+    right: 6rem;
+    padding: 0.5rem;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.login:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.login a:hover {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    left: 0.3rem;
+    color: blueviolet;
+}
+
+.welcomePage {
+    height: 25rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.pageDescription {
+    /* border: 2px solid red; */
+    color: white;
+}
+
+.bigtext {
+    padding: 3rem;
+}
+
+.bigtext span {
+    display: block;
+}
+
+.imageSide {
+    position: absolute;
+    right: 0.02rem;
+    top: 1rem;
+    /* border: 2px solid red; */
+}
+
+.image {
+    height: 20rem;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .options {
+        position: absolute;
+        top: 1rem;
+        left: 15rem;
+    }
+}
