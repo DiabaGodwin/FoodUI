@@ -159,6 +159,7 @@ button {
     background-color: orangered;
     color: white;
     padding: 0.5rem;
+    cursor: pointer;
 }
 
 .btn {
