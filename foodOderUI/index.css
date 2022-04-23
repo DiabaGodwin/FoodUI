@@ -10,7 +10,7 @@
 body {
     width: 100%;
     font-size: .8rem;
-    background-color: rgb(151, 150, 150);
+    background-color: rgb(252, 248, 248);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -129,7 +129,7 @@ ul {
 .bigtext {
     /* border: 2px solid red; */
     position: absolute;
-    top: 2.7rem;
+    top: 4.7rem;
     font-size: 3rem;
 }
 
@@ -151,7 +151,7 @@ ul {
 .smallText {
     line-height: 0.9rem;
     position: absolute;
-    top: 10rem;
+    top: 12rem;
     font-size: 0.7rem;
 }
 
@@ -164,12 +164,86 @@ button {
 
 .btn {
     position: absolute;
-    top: 13rem;
+    top: 16rem;
 }
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.r1,
+.r2,
+.r3,
+.r4 {
+    margin: 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.service-mssg {
+    text-align: center;
+}
+
+.services {
+    height: 10rem;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+
+}
+
+.delivery {
+    background-color: orangered;
+    height: 7rem;
+    width: 5rem;
+}
+
+.Twenty4hours {
+    background-color: orangered;
+    height: 7rem;
+    width: 5rem;
+    margin-left: 1rem;
+}
+
+.reservation {
+    background-color: orangered;
+    height: 7rem;
+    width: 5rem;
+    margin-left: 1rem;
+}
+
+.delivery-icon {
+    height: 35px;
+    width: 35px;
+    padding: .4rem;
+    background-color: white;
+    border-radius: 50rem;
+
+}
+
+
 
 @media only screen and (max-width: 900px) {
     body {
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
 
     .options {
