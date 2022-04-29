@@ -197,12 +197,13 @@ button {
 
 .service-mssg {
     text-align: center;
+    font-size: larger;
 }
 
 .services {
     height: 10rem;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,20 +213,21 @@ button {
 
 .delivery {
     background-color: rgb(214, 206, 202);
-    height: 8rem;
-    width: 6rem;
+    height: 11rem;
+    width: 10rem;
     position: relative;
 }
 
 .delivery:hover {
     background-color: orangered;
+    color: white;
 
 }
 
 .delivery-icon {
     position: absolute;
-    left: 1.8rem;
-    top: 0.3rem;
+    left: 3.8rem;
+    top: 1rem;
 }
 
 .delivery-icon-img {
@@ -236,11 +238,47 @@ button {
     border-radius: 50rem;
 }
 
+
+.Delivery-service {
+    font-size: 1rem;
+    text-align: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 4rem;
+    left: 1.2rem;
+}
+
+.Delivery-service-des {
+    width: 8rem;
+    font-size: 0.8rem;
+    text-align: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+}
+
 .Twenty4hours {
     background-color: rgb(214, 206, 202);
-    height: 8rem;
-    width: 6rem;
-    margin-left: 8rem;
+    height: 11rem;
+    width: 10rem;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.Twenty4hours-icon {
+    position: absolute;
+    left: 3.8rem;
+    top: 1rem;
+}
+
+
+.Twenty4hours-icon-img {
+    height: 35px;
+    width: 35px;
+    padding: .4rem;
+    background-color: white;
+    border-radius: 50rem;
 }
 
 .Twenty4hours:hover {
@@ -249,9 +287,24 @@ button {
 
 .reservation {
     background-color: rgb(214, 206, 202);
-    height: 8rem;
-    width: 6rem;
-    margin-left: 8rem;
+    height: 11rem;
+    width: 10rem;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.reservation-icon {
+    position: absolute;
+    left: 3.8rem;
+    top: 1rem;
+}
+
+.reservation-icon-img {
+    height: 35px;
+    width: 35px;
+    padding: .4rem;
+    background-color: white;
+    border-radius: 50rem;
 }
 
 .reservation:hover {
@@ -260,14 +313,65 @@ button {
 
 
 .menu {
-    border: 2px solid red;
-    height: 19rem;
+    margin-top: 2rem;
+    height: 3rem;
     width: 100%;
+    margin-bottom: 2rem
 }
 
 .explore-menu {
     text-align: center;
+    font-size: larger;
 }
+
+.dishes {
+    height: 24rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+
+.dish-images {
+    width: 9.7rem;
+    height: 6rem;
+}
+
+.dishes-col1 {
+    height: 11rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dishes-col1-row1,
+.dishes-col1-row2,
+.dishes-col1-row3 {
+    height: 11rem;
+    width: 10rem;
+    border: 2px solid red;
+}
+
+.dishes-col2 {
+    height: 11rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.dishes-col2-row1,
+.dishes-col2-row2,
+.dishes-col2-row3 {
+    height: 11rem;
+    width: 10rem;
+    border: 2px solid red;
+}
+
+
 
 
 
@@ -280,7 +384,7 @@ button {
     .options {
         position: absolute;
         top: 1rem;
-        left: 11rem;
+        left: 9rem;
     }
 
     .image {
