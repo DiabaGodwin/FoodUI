@@ -335,6 +335,8 @@ button {
 
 }
 
+
+
 .dish-images {
     width: 9.7rem;
     height: 6rem;
@@ -352,7 +354,8 @@ button {
 .dishes-col1-row3 {
     height: 11rem;
     width: 10rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    position: relative;
 }
 
 .dishes-col2 {
@@ -368,11 +371,47 @@ button {
 .dishes-col2-row3 {
     height: 11rem;
     width: 10rem;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.dish-name {
+    font-size: larger;
+    font-family: monospace;
+    position: absolute;
+    top: 6.6rem;
+}
+
+.price {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.4rem;
+}
+
+.cartBtn {
+    position: absolute;
+    bottom: 0.4rem;
+    left: 0.0rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.feedback-section {
+    margin-top: 3rem;
+    width: 100%;
+    height: 24rem;
     border: 2px solid red;
+    background-color: aquamarine;
 }
 
 
-
+.footer-section {
+    margin-top: 3rem;
+    width: 100%;
+    height: 24rem;
+    border: 2px solid red;
+    background-color: #000;
+}
 
 
 
